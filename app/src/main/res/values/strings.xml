@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">The Prospectors Logbook</string>
+
+    <string name="add_a_new_prospect">\"Add a New Prospect: \"</string>
+    <string name="title_of_prospect">Title of Prospect</string>
+    <string name="map_icon">Map icon</string>
+    <string name="describe_the_prospect">Describe the Prospect</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="save_icon">Save icon</string>
+    <string name="add_a_picture">\"Add a Picture \"</string>
+    <string name="add_picture">Add Picture</string>
+
 </resources>
