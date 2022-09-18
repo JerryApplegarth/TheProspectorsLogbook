@@ -1,4 +1,4 @@
-package com.applegarthapps.theprospectorslogbook.ui.theme
+package com.applegarthapps.theprospectorslogbook.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
