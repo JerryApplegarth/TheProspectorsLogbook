@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import com.applegarthapps.theprospectorslogbook.presentation.screens.NoteScreen
 import com.applegarthapps.theprospectorslogbook.presentation.screens.NoteViewModel
 import com.applegarthapps.theprospectorslogbook.presentation.ui.theme.TheProspectorsLogbookTheme
+import com.applegarthapps.theprospectorslogbook.presentation.ui.theme.newBackgroundColor
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                    color = MaterialTheme.colors.newBackgroundColor
                 ) {
                     val noteViewModel: NoteViewModel by viewModels()
                     HomeScreen(noteViewModel = noteViewModel)

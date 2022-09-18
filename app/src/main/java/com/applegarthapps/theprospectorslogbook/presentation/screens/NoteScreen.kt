@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.dp
 import com.applegarthapps.theprospectorslogbook.data.model.Note
 import com.applegarthapps.theprospectorslogbook.presentation.components.NoteInputText
 import com.applegarthapps.theprospectorslogbook.presentation.components.NoteRow
+import com.applegarthapps.theprospectorslogbook.presentation.ui.theme.newBackgroundColor
 
 @Composable
 fun NoteScreen(
@@ -37,12 +38,12 @@ fun NoteScreen(
     var latitude by remember { mutableStateOf("") }
     var longitude by remember { mutableStateOf("") }
     val context = LocalContext.current
-    //val localContext = LocalContext.current
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(start = 12.dp)
-            .background(MaterialTheme.colors.background),
+            .background(MaterialTheme.colors.newBackgroundColor),
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Top
     ) {
